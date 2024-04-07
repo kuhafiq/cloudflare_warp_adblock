@@ -130,3 +130,4 @@ for domain in domains:
         print(f'Error occurred for {domain}: {e}')
 
 print("Script execution completed.")
+
