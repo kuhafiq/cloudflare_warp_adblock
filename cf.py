@@ -97,7 +97,7 @@ domains = [
 ]
 
 # Base URL for API
-url = f'https://api.cloudflare.com/client/v4/accounts/3d0d13acca0e8fafaeb9a45f5264ce02/gateway/policies'
+url = f'https://api.cloudflare.com/client/v4/accounts/{account_id}/gateway/policies'
 
 for domain in domains:
     # Define the policy payload
